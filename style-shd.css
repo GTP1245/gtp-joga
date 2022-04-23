@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    ---paragrafo:'Heebo', sans-serif;
+    ---cor-principal: #30D96B;
+}
+body{
+    background-color: black;
+    background-image: url(imagens/back2.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment:scroll;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+header{
+    background-image: linear-gradient(to bottom, var(---cor-principal), black);    
+    height: 100px;
+
+}
+nav{
+    background-color: black;
+    padding-bottom: 11px;
+}
+nav > a{
+    color: var(---cor-principal);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 8px;
+    
+}
+nav > a:hover{
+    background-color: rgb(89, 89, 89);
+    border-radius: 8px;
+    
+}
+main{
+    width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 15px;
+    
+}
+p{
+    text-indent: 8px;
+    line-height: 30px;
+    font-family: var(---paragrafo);
+    margin-bottom: 18px;
+    
+}
+#titulo{
+    color: chocolate;
+    text-align: center;
+    font-variant: small-caps;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    
+}
+#video{
+    text-align: center;
+    background-color: #212e27;
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 2.5%;
+    position: relative;
+}
+.externo{
+    text-decoration: none;
+    color: var(---cor-principal);
+    font-weight: bold;
+    text-shadow: 5px;
+}
+.externo:hover{
+    text-decoration: underline;
+}
+#baixar{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 40px ;
+    
+    
+}
+#link-baixar{
+    padding: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: var(---cor-principal);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+ul{
+    margin-left: 28px;
+} 
+
+hr{
+    color: var(---cor-principal);
+}
+img{
+    display: block;
+    margin: auto;
+    border-radius: 75px;
+}
+#logo{
+    text-align: center;
+    
+}
+#nome{
+    color: var(---cor-principal);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
