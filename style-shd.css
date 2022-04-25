@@ -4,15 +4,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 :root{
     ---paragrafo:'Heebo', sans-serif;
     ---cor-principal: #30D96B;
 }
 body{
+    margin: 0%;
     background-color: black;
     background-image: url(imagens/back2.png);
     background-position: center;
@@ -21,9 +19,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
     
     
+    
 }
 header{
-    background-image: linear-gradient(to bottom, var(---cor-principal), black);    
+    background-color: black;    
     height: 100px;
 
 }
@@ -46,13 +45,14 @@ nav > a:hover{
 }
 main{
     width: 800px;
-    margin: auto;
+    margin-left: 106px;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
     margin-top: 15px;
     
 }
+
 p{
     text-indent: 8px;
     line-height: 30px;
@@ -122,5 +122,14 @@ img{
 #nome{
     color: var(---cor-principal);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#anuncio-plugo{
+    margin-right: 30px;
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-image: url(imagens/foto-fone300.jpg);
+    border: 5 px white solid;
     
 }
