@@ -11,7 +11,7 @@
 }
 body{
     margin: 0%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     background-image: url(imagens/back2.png);
     background-position: center;
     background-repeat: repeat;
@@ -27,8 +27,12 @@ header{
 
 }
 nav{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding-bottom: 11px;
+    text-align: center;
+    
+    margin: 0%;
+    
 }
 nav > a{
     color: var(---cor-principal);
@@ -39,6 +43,7 @@ nav > a{
     
 }
 nav > a:hover{
+    
     background-color: rgb(89, 89, 89);
     border-radius: 8px;
     
@@ -116,7 +121,7 @@ img{
     border-radius: 75px;
 }
 #logo{
-    text-align: center;
+    text-align: left;
     
 }
 #nome{
@@ -128,8 +133,13 @@ img{
     margin-right: 30px;
     float: right;
     width: 300px;
-    height: 300px;
+    height: 353px;
     background-image: url(imagens/foto-fone300.jpg);
-    border: 5 px white solid;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 5px white solid;
+    margin-top: 46px;
+}
+#logo-redonda{
     
 }
