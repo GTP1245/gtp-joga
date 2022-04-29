@@ -10,8 +10,14 @@
     ---cor-principal: #30D96B;
 }
 body{
-    margin: 0%;
+    margin: auto;
     background-color: rgb(0, 0, 0);
+<<<<<<< HEAD:style.css
+=======
+    min-width: 320px;
+    background-position: center;
+    background-repeat: repeat;
+>>>>>>> db4f288489ad1d5fb7ccab3bfbf8640c98a469ca:style-shd.css
     background-attachment:scroll;
     font-family: 'Courier New', Courier, monospace;
     
@@ -19,14 +25,19 @@ body{
     
 }
 header{
-    background-color: black;    
+    
+    background-color: rgb(0, 0, 0);    
     height: 100px;
 
 }
 nav{
     background-color: rgb(0, 0, 0);
     padding-bottom: 11px;
+<<<<<<< HEAD:style.css
     text-align: center;
+=======
+    text-align: left;
+>>>>>>> db4f288489ad1d5fb7ccab3bfbf8640c98a469ca:style-shd.css
     margin: 0%;
     
 }
@@ -40,14 +51,18 @@ nav > a{
 }
 nav > a:hover{
     
-    background-color: rgb(89, 89, 89);
+    background-color: rgba(255, 255, 255, 0.527);
     border-radius: 8px;
     
 }
 main{
+<<<<<<< HEAD:style.css
     height: auto;
     max-width: 800px;
     min-width: 320px;
+=======
+    max-width: 800px;
+>>>>>>> db4f288489ad1d5fb7ccab3bfbf8640c98a469ca:style-shd.css
     margin: auto;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
@@ -64,7 +79,7 @@ p{
 }
 .titulo{
     color: rgb(0, 0, 0);
-    text-align: center;
+    text-align: left;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 25px;
     margin-bottom: 8px;
@@ -76,6 +91,7 @@ div.video{
     padding: 20px;
     padding-bottom: 58.5%;
     position: relative;
+<<<<<<< HEAD:style.css
 }
 
 div.video > iframe{
@@ -85,6 +101,17 @@ div.video > iframe{
     width: 90%;
     height: 85%;
 }
+=======
+    
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    }
+
+>>>>>>> db4f288489ad1d5fb7ccab3bfbf8640c98a469ca:style-shd.css
 .externo{
     text-decoration: none;
     color: var(---cor-principal);
@@ -138,10 +165,12 @@ img{
     float: right;
     width: 300px;
     height: 353px;
+    margin-top: 148px;
     background-image: url(imagens/foto-fone300.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-color: white;
     border: 5px white solid;
+<<<<<<< HEAD:style.css
     margin-top: 46px;
 }
 footer{
@@ -157,5 +186,18 @@ footer > a{
     color: var(---cor-principal);
     text-align: center;
     text-decoration: none;
+=======
+>>>>>>> db4f288489ad1d5fb7ccab3bfbf8640c98a469ca:style-shd.css
     
+    display: block;
+}
+
+#comprar{
+    margin-top: 305px;
+    
+}
+#discord{
+    display: inline-block;
+    position: relative;
+    float: left;
 }
