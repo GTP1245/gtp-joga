@@ -12,9 +12,6 @@
 body{
     margin: 0%;
     background-color: rgb(0, 0, 0);
-    background-image: url(imagens/back2.png);
-    background-position: center;
-    background-repeat: repeat;
     background-attachment:scroll;
     font-family: 'Courier New', Courier, monospace;
     
@@ -30,7 +27,6 @@ nav{
     background-color: rgb(0, 0, 0);
     padding-bottom: 11px;
     text-align: center;
-    
     margin: 0%;
     
 }
@@ -49,23 +45,24 @@ nav > a:hover{
     
 }
 main{
-    width: 800px;
-    margin-left: 106px;
+    height: auto;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 10px;
-    margin-top: 15px;
-    
+    border-radius: 5px;
 }
 
 p{
-    text-indent: 8px;
+    text-indent: 12px;
     line-height: 30px;
     font-family: var(---paragrafo);
     margin-bottom: 18px;
     
 }
-#titulo{
+.titulo{
     color: rgb(0, 0, 0);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
@@ -73,13 +70,20 @@ p{
     margin-bottom: 8px;
     
 }
-#video{
-    text-align: center;
-    background-color: #212e27;
-    margin: 0px -10px 30px -10px;
+div.video{
+    background-color: #30D96B;
+    margin: 0px -11px 30px -11px;
     padding: 20px;
-    padding-bottom: 2.5%;
+    padding-bottom: 58.5%;
     position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
 }
 .externo{
     text-decoration: none;
@@ -140,6 +144,18 @@ img{
     border: 5px white solid;
     margin-top: 46px;
 }
-#logo-redonda{
+footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+}
+footer > a{
+    color: var(---cor-principal);
+    text-align: center;
+    text-decoration: none;
     
 }
