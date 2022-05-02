@@ -30,13 +30,13 @@ nav{
     padding-bottom: 11px;
     text-align: center;
     margin: 0%;
-    font-family: 'Lexend', sans-serif;
+    
     
 }
 nav > a{
     color: var(---cor-principal);
     text-decoration: none;
-    font-variant: small-caps;
+    font-family: 'Lexend', sans-serif;
     font-size: larger;
     padding: 8px;
     
