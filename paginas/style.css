@@ -47,6 +47,9 @@ nav > a:hover{
     border-radius: 8px;
     
 }
+nav > img{
+    margin-bottom: 18px;
+}
 main{
     height: auto;
     max-width: 800px;
