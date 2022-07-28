@@ -109,6 +109,7 @@ div.video > iframe{
     
 }
 #link-baixar{
+    
     padding: 10px;
     padding-left: 38px;
     padding-right: 38px;
@@ -116,14 +117,21 @@ div.video > iframe{
     color: black;
     border-radius: 10px;
     text-decoration: none;
+    margin: auto;
+    display: block;
+
+    width: 100PX;
+    height: auto;
     font-family: 'Lexend', sans-serif;
     
 }
+ol{
+    text-align: left;
+}
 ul, li{
-    margin-left: 28px;
     font-family: 'Lexend', sans-serif;
     font-weight: bold;
-    text-decoration: none;
+     
     
 } 
 
@@ -145,7 +153,7 @@ hr{
     float: right;
     width: 300px;
     height: 353px;
-    background-image: url(imagens/foto-fone300.jpg);
+    background-image: url(imagens/limbo-PC-G.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     border: 5px white solid;
