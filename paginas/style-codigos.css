@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    width: 800px;
+    height: auto;
+    border-radius: 5px; 
+}
+ol{
+    columns: 2;
+}
+.link-externo{
+    color: #30D96B;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1em;
+}
+.lista{
+    
+    margin: auto;
+}
+iframe{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
