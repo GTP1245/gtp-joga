@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+
+:root{
+    ---paragrafo:'Heebo', sans-serif;
+    ---cor-principal: #30D96B;
+}
+body{
+    margin: 0%;
+    background-color: rgb(0, 0, 0);
+    background-attachment:scroll;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+    
+}
+header{
+    background-color: black;    
+    height: 100px;
+
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 11px;
+    text-align: center;
+    margin: 0%;
+    
+    
+}
+nav > a{
+    color: var(---cor-principal);
+    text-decoration: none;
+    font-family: 'Lexend', sans-serif;
+    font-size: larger;
+    padding: 8px;
+    
+}
+nav > a:hover{
+    
+    background-color: rgb(89, 89, 89);
+    border-radius: 8px;
+    
+}
+nav > img{
+    margin-bottom: 18px;
+}
+main{
+    height: auto;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p{
+    text-indent: 12px;
+    line-height: 30px;
+    font-family: var(---paragrafo);
+    margin-bottom: 18px;
+    
+}
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    
+}
+div.video{
+    background-color: #242424;
+    margin: 0px -11px 30px -11px;
+    padding: 20px;
+    padding-bottom: 58.5%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    width: 90%;
+    height: 85%;
+}
+.externo{
+    text-decoration: none;
+    color: var(---cor-principal);
+    font-weight: bold;
+    text-shadow: 5px;
+}
+.externo:hover{
+    text-decoration: underline;
+}
+#baixar{
+    text-align: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-bottom: 40px ;
+    
+    
+}
+#link-baixar{
+    
+    padding: 10px;
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: var(---cor-principal);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: auto;
+    display: block;
+
+    width: 100PX;
+    height: auto;
+    font-family: 'Lexend', sans-serif;
+    
+}
+ol{
+    text-align: left;
+}
+ul, li{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+     
+    
+} 
+
+hr{
+    color: var(---cor-principal);
+}
+
+#logo{
+    text-align: left;
+    
+}
+#nome{
+    color: var(---cor-principal);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#anuncio-plugo{
+    margin-right: 30px;
+    float: right;
+    width: 300px;
+    height: 353px;
+    background-image: url(imagens/limbo-PC-G.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: 5px white solid;
+    margin-top: 46px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    padding: 0%;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+}
+footer > a{
+    color: var(---cor-principal);
+    text-align: center;
+    text-decoration: none;
+    
+}
+.logo{
+    margin: auto;
+    display: block;
+}
