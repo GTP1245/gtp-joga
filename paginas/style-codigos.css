@@ -3,14 +3,20 @@
 body{
     background-color: black;
     font-family: sans-serif;
+    color: #30D96B;
 }
 main{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin: auto;
-    width: 800px;
+    width: 900px;
     height: auto;
     border-radius: 5px; 
+}
+.titulo{
+    color: #30D96B;
+    text-align: center;
+    font-family: sans-serif;
 }
 ol{
     columns: 2;
@@ -22,11 +28,17 @@ ol{
     font-size: 1em;
 }
 .lista{
-    
+    width: 500px;
+    background-color: black;
+    border: 1px black solid;
     margin: auto;
+    
 }
 iframe{
+    width: 800px;
     display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
     margin: auto;
     border: 2px solid black;
 }
