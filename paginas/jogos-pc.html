@@ -4,60 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
-    <title>Jogos Android</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Jogos para pc</title>
 </head>
 <style>
-body{
-    background-color: rgb(0, 0, 0);
-    color: #30d96b;
-
-    
-    
-}
-
-#jogos{
-    background-color: rgb(0, 0, 0);
-    height: auto;
-    max-width: 700px;
-    min-width: 336px;
-    text-align: center;
-    border: 1px solid white;
+    body{
+        background-color: black;
+        color: #30D96B;
+        font-family: 'Lexend', sans-serif;
+    }
+    .imagens{
     margin: auto;
-}
-#jogos{
-    
-    
-}
-.box{
-    display: inline-block;
-    
-}
-.mais-games{
-    box-shadow:0px 0px 6px 1px #30d96b;
-    margin-bottom: 25px;
-}
-img{
-    margin-right: 12px;
-    
-}
+    max-width: 700px;
+    min-width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    }
+    .img-game{
+        display: flex;
+    }
+    a{
+        padding-left: 15px;
+       
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    .borda{
+        box-shadow: 0px 0px 6px 1px #30d96b;
+        margin-bottom: 25px;
+    }
 
 </style>
 <body>
-    
-    <div id="jogos">
-        <h1>Jogos para pc</h1>
-
-        <div class="box" >
-            <a href="nfs-pc.html"> <img src="imagens/NFS.jpg" alt=""class="mais-games"></a>
-            <a href="limbo-pc.html"> <img src="imagens/Limbo-pc.jpg" alt=""class="mais-games"></a>
-            
-        </div>
-
+    <div class="inicio"><a href="index.html" target="_self"><img src="imagens/inicio-.png" alt=""></a> <h1>jogos para pc</h1></div>
+    <div class="imagens">
+        <div class="img-game"><a href="nfs-pc.html" target="_self"><img src="imagens/NFS.jpg" alt="" class="borda"></a></div>
+        <div class="img-game"><a href="limbo-pc.html" target="_self"><img src="imagens/Limbo-pc.jpg"  alt="" class="borda"></a></div>
         
-        <p>Vou adicionar mais em breve... &#x1F636; </p>
     </div>
+    <div><p>Em breve vou adicionar mais 😶</p></div>
     
 </body>
-
 </html>
