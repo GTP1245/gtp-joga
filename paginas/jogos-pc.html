@@ -1,54 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogos para pc</title>
     <link rel="stylesheet" href="style.css">
-    <title>Jogos para pc</title>
 </head>
 <style>
     body{
         background-color: black;
-        color: #30D96B;
+        color: var(---cor-principal);
+    }
+    h1, p{
+        color: var(---cor-principal);
+        text-align: center;
         font-family: 'Lexend', sans-serif;
     }
-    .imagens{
-    margin: auto;
-    max-width: 700px;
-    min-width: 350px;
-    height: auto;
+   .container{
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    }
-    .img-game{
-        display: flex;
-    }
-    a{
-        padding-left: 15px;
-       
-    }
-    h1{
-        text-align: center;
-    }
-    p{
-        text-align: center;
-    }
-    .borda{
-        box-shadow: 0px 0px 6px 1px #30d96b;
-        margin-bottom: 25px;
-    }
+    align-items: center;
+    justify-content: center;
+   }
+   .conteudo{
+    min-height: 100px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 5px;
+   }
+   @media(max-width: 863px){
+    .container{
+        flex-wrap: wrap;
+        flex-direction: column;
 
+    }
+    .conteudo{
+        margin: 5px;
+
+    }
+   
+   }
+   @media(max-width: 459px){
+   h1,p{
+    width: 136%;
+   }
+   }
+   section{
+    max-width: 707px;
+    margin: auto;
+   }
+   
 </style>
 <body>
-    <div class="inicio"><a href="index.html" target="_self"><img src="imagens/inicio-.png" alt=""></a> <h1>jogos para pc</h1></div>
-    <div class="imagens">
-        <div class="img-game"><a href="nfs-pc.html" target="_self"><img src="imagens/NFS.jpg" alt="" class="borda"></a></div>
-        <div class="img-game"><a href="limbo-pc.html" target="_self"><img src="imagens/Limbo-pc.jpg"  alt="" class="borda"></a></div>
-        
-    </div>
-    <div><p>Em breve vou adicionar mais 😶</p></div>
-    
+    <h1>jogos para PC</h1>
+    <section class="container">
+        <div class="conteudo"><a href="nfs-pc.html"><img src="imagens/NFS.jpg" alt=""></a></div>
+        <div class="conteudo"><a href="limbo-pc.html"><img src="imagens/Limbo-pc.jpg" alt=""></a></div>
+      
+    </section>
+    <p>Vou adicionar mais em breve.. &#x1F636;</p>
 </body>
 </html>
