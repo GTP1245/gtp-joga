@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jogos para pc</title>
+    <title>Jogos para pc</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
@@ -24,7 +24,14 @@
     justify-content: center;
 
    }
-    
+   figcaption{
+    display: none;
+   }
+   figure:hover > figcaption{
+    display: block;
+    transition: 10s;
+   }
+   
 
    .conteudo{
     min-width: none;
@@ -33,15 +40,16 @@
     display: block;
     text-align: center;
    }
+   
 </style>
 <body>
    
     <div class="conteudo">
-    <h1>jogos para android</h1>
-    <a href="limbo-apk.html"><img src="imagens/limbo.jpg"alt=""></a>
-    <a href="shadow-fight.html"><img src="imagens/shadow-fght.jpg"alt=""></a>
-    <a href="geometry-dash.html"><img src="imagens/geometry.jpg"alt=""></a>
-    <a href="true-skate.html"><img src="imagens/true-skate.png"alt=""></a>
+    <h1>Jogos para android</h1>
+    <figure><a href="limbo-apk.html" id="dd"><img src="imagens/limbo.jpg"alt=""></a> <figcaption>Olá mundo</figcaption> </figure>
+    <figure><a href="shadow-fight.html"><img src="imagens/shadow-fght.jpg"alt=""></a> <figcaption>ollamundo</figcaption></figure>
+    <figure><a href="geometry-dash.html"><img src="imagens/geometry.jpg"alt=""></a> <figcaption>olaa</figcaption></figure>
+    <figure><a href="true-skate.html"><img src="imagens/true-skate.png"alt=""></a> <figcaption>sss</figcaption></figure>
     <p>Vou adicionar mais em breve.. &#x1F636;</p>
     </div>
     
