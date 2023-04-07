@@ -16,9 +16,6 @@ body{
     background-color: rgb(0, 0, 0);
     background-attachment:scroll;
     font-family: 'Courier New', Courier, monospace;
-    
-    
-    
 }
 header{
     background-color: black;    
@@ -109,7 +106,6 @@ div.video > iframe{
     
 }
 #link-baixar{
-    
     padding: 10px;
     padding-left: 38px;
     padding-right: 38px;
@@ -130,13 +126,9 @@ ol{
 ul, li{
     font-family: 'Lexend', sans-serif;
     font-weight: bold;
-     
-    
 } 
 
-hr{
-    color: var(---cor-principal);
-}
+ 
 
 #logo{
     text-align: left;
@@ -147,17 +139,7 @@ hr{
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
-#anuncio-plugo{
-    margin-right: 30px;
-    float: right;
-    width: 300px;
-    height: 353px;
-    background-image: url(imagens/limbo-PC-G.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    border: 5px white solid;
-    margin-top: 46px;
-}
+ 
 
 footer{
     background-color: rgb(0, 0, 0);
