@@ -134,6 +134,10 @@ ul, li{
     text-align: left;
     
 }
+.logo-game {
+    display: flex;
+    flex-direction: column;
+}
 #nome{
     color: var(---cor-principal);
     font-family: Georgia, 'Times New Roman', Times, serif;
